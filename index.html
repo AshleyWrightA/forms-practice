@@ -23,42 +23,46 @@
     <div class="content-container">
         <div class="content-hero">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean venenatis augue id est venenatis iaculis. Nam vehicula suscipit odio, eu varius nisi vestibulum at.</p>
-            <p>Draw the cards</p>
+            <p>Draw the cards.</p>
         </div>
         <div class="outer-form">
             <p>Lets do this!</p>
             <form class="form-container" action="dummy.net/path">
                 <fieldset>
-                    <label for="first-name">
-                        First Name
-                        <input type="text" id="first-name">
+                    <label for="first-name" id="label-first-name">
+                        <p>First Name</p>
+                        <input type="text" id="first-name" placeholder="Jon" required>
+                        <span class="error-message">&nbsp;</span>
                     </label>
-                
                     <label for="last-name">
-                        Last Name
-                        <input type="text" id="last-name">
+                        <p>Last Name</p>
+                        <input type="text" id="last-name" placeholder="Doe">
+                        <span class="error-message">&nbsp;</span>
                     </label>
                 </fieldset>
                 <fieldset>
                     <label for="email">
-                        Email
-                        <input type="text" id="email">
+                        <p>Email</p>
+                        <input type="email" id="email" placeholder="JonDoe@email.com" required>
+                        <span class="error-message">&nbsp;</span>
                     </label>
-
                     <label for="phone-number">
-                        Phone Number
-                        <input type="text" id="phone-number">
+                        <p>Phone Number</p>
+                        <input type="tel" id="phone-number" placeholder="_-___-___-____">
+                        <span class="error-message">&nbsp;</span>
                     </label>
                 </fieldset>
                 <fieldset>
-                <label for="password">
-                    Password
-                    <input type="text" id="password">
-                </label>
-                <label for="confirm-password">
-                    Confirm Password
-                    <input type="text" id="confirm-password">
-                </label>
+                    <label for="password">
+                        <p>Password</p>
+                        <input type="password" id="password" placeholder="************" minlength="10" maxlength="20" required>
+                        <span class="error-message">&nbsp;</span>
+                    </label>
+                    <label for="confirm-password">
+                        <p>Confirm Password</p>
+                        <input type="password" id="confirm-password" placeholder="************" required>
+                        <span class="error-message">&nbsp;</span>
+                    </label>
                 </fieldset>
             </form>
         </div>

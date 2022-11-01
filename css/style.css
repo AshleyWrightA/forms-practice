@@ -3,6 +3,11 @@
  margin: 0;    
 }
 
+@font-face {
+    font-family: "HVD-bodedo";
+    src: url(../font/HVD_Bodedo.ttf);
+}
+
 :root {
     height: 100%;
     font-size: 16px;
@@ -20,13 +25,18 @@ body {
     flex-direction: column;
     justify-content: space-between;
 
+    position: relative;
+
+    /*Background, offset to centre a card*/
     background: url(../images/viva-luna-studios-y3qrbAgm7q8-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: 1200px 100%;
-    background-position: -270px;
+    background-position: -360px;
 }
 
 .splash-brand {
+    margin-top: 160px;
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -34,12 +44,10 @@ body {
     height: 100px;
     width: 100%;
 
-    position: calc();
-
     color: rgb(255, 255, 255);
     background-color: rgba(58, 58, 58, 0.5);
     font-size: 4rem;
-    font-weight: bold;
+    font-family: HVD-bodedo;
 }
 
 .splash-footer {
@@ -49,11 +57,13 @@ body {
     justify-content: flex-end;
 
     font-size: 2rem;
+    font-family: HVD-bodedo;
     color: rgba(255, 255, 255, 0.80);
 }
 
 .splash-footer a {
     font-size: 2rem;
+    font-family: HVD-bodedo;
     text-decoration: none;
     color: rgba(255, 255, 255, 0.80);
 }
@@ -65,6 +75,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .content-hero {
@@ -79,7 +91,7 @@ body {
 .outer-form {
     margin: 40px 0px;
     padding: 20px 140px 20px 140px;
-    height: 200px;
+    height: 250px;
 
     background-color: white;
     box-shadow: 0px 2px 7px 0px rgb(75, 75, 75);
@@ -92,7 +104,9 @@ body {
 .form-container {
     display: flex;
     flex-wrap: wrap;
+}
 
+.form-container p {
     font-size: 1rem;
 }
 
@@ -106,13 +120,31 @@ label {
     padding: 10px 20px 10px 0px;
 }
 
+.error-message {
+    margin: 4px;
+    color: darkred;
+}
+
 input {
     height: 24px;
     padding: 5px;
 
-    border: none;
+    border: 1px solid darkgray;
     border-radius: 4px;
     background-color: rgb(219, 219, 219);
+}
+
+input:valid {
+    border: 1px solid rgb(15, 177, 0);
+}
+
+input:invalid {
+    border: 1px solid darkred;
+}
+
+input::placeholder {
+    opacity: .2;
+    color: rgb(0, 0, 0);
 }
 
 .account-container {
@@ -129,6 +161,8 @@ input {
     border-radius: 10px;
     border: none;
     background-color: rgb(224, 131, 55);
+
+    font-size: 1.2rem;
 }
 
 .account-container button:active {
