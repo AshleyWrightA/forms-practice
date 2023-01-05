@@ -147,7 +147,7 @@ eval("const firstName = document.querySelector(\"#first-name\");\nconst email = 
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _app_app__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./app/app */ \"./src/app/app.js\");\n/* harmony import */ var _app_app__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_app_app__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _css_style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./css/style.css */ \"./src/css/style.css\");\n\n\n\n\n//# sourceURL=webpack://forms-practice/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _app_app__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./app/app */ \"./src/app/app.js\");\n/* harmony import */ var _app_app__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_app_app__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _css_style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./css/style.css */ \"./src/css/style.css\");\n/* harmony import */ var _assets_images_favicon_ico__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./assets/images/favicon.ico */ \"./src/assets/images/favicon.ico\");\n\n\n\n\n\n//# sourceURL=webpack://forms-practice/./src/index.js?");
 
 /***/ }),
 
@@ -158,7 +158,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _app
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-eval("module.exports = __webpack_require__.p + \"{name]..woff\";\n\n//# sourceURL=webpack://forms-practice/./src/assets/fonts/HVD_Bodedo-webfont.woff?");
+eval("module.exports = __webpack_require__.p + \"HVD_Bodedo-webfont..woff\";\n\n//# sourceURL=webpack://forms-practice/./src/assets/fonts/HVD_Bodedo-webfont.woff?");
+
+/***/ }),
+
+/***/ "./src/assets/images/favicon.ico":
+/*!***************************************!*\
+  !*** ./src/assets/images/favicon.ico ***!
+  \***************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"favicon..ico\";\n\n//# sourceURL=webpack://forms-practice/./src/assets/images/favicon.ico?");
 
 /***/ }),
 
@@ -169,7 +180,7 @@ eval("module.exports = __webpack_require__.p + \"{name]..woff\";\n\n//# sourceUR
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-eval("module.exports = __webpack_require__.p + \"{name]..jpg\";\n\n//# sourceURL=webpack://forms-practice/./src/assets/images/viva-luna-studios-y3qrbAgm7q8-unsplash.jpg?");
+eval("module.exports = __webpack_require__.p + \"viva-luna-studios-y3qrbAgm7q8-unsplash..jpg\";\n\n//# sourceURL=webpack://forms-practice/./src/assets/images/viva-luna-studios-y3qrbAgm7q8-unsplash.jpg?");
 
 /***/ })
 
