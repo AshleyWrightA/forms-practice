@@ -1,0 +1,31 @@
+{
+  "name": "forms-practice",
+  "version": "1.0.0",
+  "description": "Form Demonstration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AshleyWrightA/forms-practice.git"
+  },
+  "author": "Ashley Wright",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AshleyWrightA/forms-practice/issues"
+  },
+  "homepage": "https://github.com/AshleyWrightA/forms-practice#readme",
+  "dependencies": {
+    "css-loader": "^6.7.3",
+    "gh-pages": "^4.0.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.75.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^5.0.1"
+  }
+}
