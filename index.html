@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/74b956baff.js" crossorigin="anonymous"></script>
+    <script src="./main.js" type="module" defer></script>
+    <title>Cartomancy</title>
+  </head>
+  <body>
+    <div class="splash-container">
+      <div class="splash-empty"></div>
+      <div class="splash-brand">
+        <p>Cartomancy</p>
+      </div>
+      <div class="splash-footer">
+        <p>Photo by&nbsp;</p>
+        <a href="https://unsplash.com/@vivalunastudios">Viva Luna Studios</a>
+      </div>
+    </div>
+    <div class="content-container">
+      <div class="content-hero">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean venenatis augue id est
+          venenatis iaculis. Nam vehicula suscipit odio, eu varius nisi vestibulum at.
+        </p>
+        <p>Draw the cards.</p>
+      </div>
+      <div class="outer-form">
+        <p>Lets do this!</p>
+        <form class="form-container" action="dummy.net/path">
+          <fieldset>
+            <label for="first-name" id="label-first-name">
+              <p>First Name</p>
+              <input type="text" id="first-name" placeholder="Jon" required />
+              <span class="error-message">&nbsp;</span>
+            </label>
+            <label for="last-name">
+              <p>Last Name</p>
+              <input type="text" id="last-name" placeholder="Doe" />
+              <span class="error-message">&nbsp;</span>
+            </label>
+          </fieldset>
+          <fieldset>
+            <label for="email">
+              <p>Email</p>
+              <input type="email" id="email" placeholder="JonDoe@email.com" required />
+              <span class="error-message">&nbsp;</span>
+            </label>
+            <label for="phone-number">
+              <p>Phone Number</p>
+              <input type="tel" id="phone-number" placeholder="_-___-___-____" />
+              <span class="error-message">&nbsp;</span>
+            </label>
+          </fieldset>
+          <fieldset>
+            <label for="password">
+              <p>Password</p>
+              <input
+                type="password"
+                id="password"
+                placeholder="************"
+                minlength="10"
+                maxlength="20"
+                required
+              />
+              <span class="error-message">&nbsp;</span>
+            </label>
+            <label for="confirm-password">
+              <p>Confirm Password</p>
+              <input type="password" id="confirm-password" placeholder="************" required />
+              <span class="error-message">&nbsp;</span>
+            </label>
+          </fieldset>
+        </form>
+      </div>
+      <div class="account-container">
+        <button>Create Account</button>
+        <div class="account-log-in">
+          <p>Already have an account?</p>
+          <a href="">Log in</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
